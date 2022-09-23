@@ -1,0 +1,126 @@
+.link {
+    margin-left: 45%;
+  }
+  .colr {
+    color: #1f7a8c;
+    color: #053c5e;
+    color: #a31621;
+    color: #9ee3de;
+  }
+  
+  *{
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none !important;
+  }
+  
+  a, a:hover {
+    text-decoration: none;
+    color: #053c5e;
+  }
+  
+  body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: 'Nunito';
+  }
+  
+  h1 {
+  text-align: center;
+  padding: 10px 0px;
+  color: #666;
+  }
+  
+  
+  .master-form-group .text-danger {
+    font-size: 13px;
+    color: #dc3545!important;
+  }
+  
+  .master-login-section {
+    max-width: 400px;
+    margin:auto;
+  }
+  
+  .master-form-group{
+    padding: 15px 0px;
+  }
+  
+  .master-form-group label {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #292F36;
+  }
+  
+  /* input, select {
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+  } */
+  
+  .master-form-group input, .master-form-group select {
+    width: 100%;
+    padding: 14px 16px;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    border: 1px solid #9EE3DE;
+    color: #292F36;
+  }
+  
+  .master-form-group input.master-input-error {
+    border: 1px solid #dc3545;
+  }
+  
+  .master-form-group .text-danger{
+    font-size: 13px;
+  }
+  
+  .master-form-group textarea {
+    width: 100%;
+    padding: 14px 16px;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    border: 1px solid #9EE3DE;
+    color: #292F36;
+    resize: none;
+    min-height: 124px;
+  }
+  
+  .master-form-group input::placeholder{
+    color: #90CFCA;
+    font-weight: 400;
+  }
+  
+  .master-center {
+  text-align: center;
+  }
+  
+  .master-submit-btn {
+    color: #ffffff;
+    background: #1F7A8C;
+    border: 0px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    padding: 14px 65px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .master-submit-btn:hover{
+    background: #053c5e;
+  }
